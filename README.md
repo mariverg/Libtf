@@ -74,7 +74,8 @@ typedef struct s_list
     void *content;
     struct s_list *next;
 } t_list;
-Funciones a implementar:
+
+### Funciones a implementar:
 
 ft_lstnew
 ft_lstadd_front
@@ -85,8 +86,6 @@ ft_lstdelone
 ft_lstclear
 ft_lstiter
 ft_lstmap
-
-### Parte 2 - Funciones adicionales
 
 En tu Makefile, debes incluir las siguientes reglas:
 
