@@ -66,10 +66,16 @@ Estas funciones no son de la librería libc, o lo son pero de una forma diferent
 
 ### Parte Bonus
 
-Si completas la parte obligatoria, puedes implementar funciones adicionales para manipular listas. Usa la siguiente estructura para representar un nodo de tu lista:
-typedef struct s_list
-{
-    void *content;
-    struct s_list *next;
-} t_list;
+Si completas la parte obligatoria, puedes implementar funciones adicionales para manipular listas.
+
+
+- `ft_lstnew`
+- `ft_lstadd_front`
+- `ft_lstsize`
+- `ft_lstlast`
+- `ft_lstadd_back`
+- `ft_lstdelone`
+- `ft_lstclear`
+- `ft_lstiter`
+- `ft_lstmap`
 
