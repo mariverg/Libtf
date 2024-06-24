@@ -87,42 +87,4 @@ ft_lstclear
 ft_lstiter
 ft_lstmap
 
-En tu Makefile, debes incluir las siguientes reglas:
-
-NAME para generar el archivo libft.a.
-all para compilar todos los archivos.
-clean para eliminar archivos objeto.
-fclean para eliminar archivos objeto y la librería.
-re para recompilar todo.
-
-# Consideraciones Técnicas
-
-Declarar variables globales está prohibido.
-Si necesitas separar una función compleja en varias, utiliza la palabra static.
-Todos los archivos deben estar en la raíz de tu repositorio.
-No entregues archivos no utilizados.
-Todos los archivos .c deben compilarse con las flags -Wall -Werror -Wextra.
-Usa ar para generar la librería. El uso de libtool está prohibido.
-libft.a debe ser creado en la raíz del repositorio.
-
-# Uso
-Para compilar la librería, ejecuta:
-
-bash
-Copy code
-make
-Para limpiar los archivos objeto, ejecuta:
-
-bash
-Copy code
-make clean
-Para limpiar los archivos objeto y la librería, ejecuta:
-
-bash
-Copy code
-make fclean
-Para recompilar todo, ejecuta:
-
-bash
-Copy code
-make re
+### En el Makefile debes incluir: 
