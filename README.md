@@ -67,24 +67,9 @@ Estas funciones no son de la librería libc, o lo son pero de una forma diferent
 ### Parte Bonus
 
 Si completas la parte obligatoria, puedes implementar funciones adicionales para manipular listas. Usa la siguiente estructura para representar un nodo de tu lista:
-
-```c
 typedef struct s_list
 {
     void *content;
     struct s_list *next;
 } t_list;
 
-# Funciones a implementar:
-
-ft_lstnew
-ft_lstadd_front
-ft_lstsize
-ft_lstlast
-ft_lstadd_back
-ft_lstdelone
-ft_lstclear
-ft_lstiter
-ft_lstmap
-
-### En el Makefile debes incluir: 
