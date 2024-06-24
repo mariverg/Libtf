@@ -86,3 +86,34 @@ Si completas la parte obligatoria, puedes implementar funciones adicionales para
 - clean para eliminar archivos objeto.
 - fclean para eliminar archivos objeto y la librería.
 - re para recompilar todo.
+  
+### Consideraciones tecnicas: 
+- Declarar variables globales está prohibido.
+- Si necesitas separar una función compleja en varias, utiliza la palabra static.
+- Todos los archivos deben estar en la raíz de tu repositorio.
+- No entregues archivos no utilizados.
+- Todos los archivos .c deben compilarse con las flags -Wall -Werror -Wextra.
+- Usa ar para generar la librería. El uso de libtool está prohibido.
+- libft.a debe ser creado en la raíz del repositorio.
+
+### Usos:
+Para compilar la librería, ejecuta:
+
+bash
+Copy code
+make
+Para limpiar los archivos objeto, ejecuta:
+
+bash
+Copy code
+make clean
+Para limpiar los archivos objeto y la librería, ejecuta:
+
+bash
+Copy code
+make fclean
+Para recompilar todo, ejecuta:
+
+bash
+Copy code
+make re
