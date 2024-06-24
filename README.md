@@ -75,7 +75,7 @@ typedef struct s_list
     struct s_list *next;
 } t_list;
 
-### Funciones a implementar:
+# Funciones a implementar:
 
 ft_lstnew
 ft_lstadd_front
@@ -94,7 +94,9 @@ all para compilar todos los archivos.
 clean para eliminar archivos objeto.
 fclean para eliminar archivos objeto y la librería.
 re para recompilar todo.
-Consideraciones Técnicas
+
+# Consideraciones Técnicas
+
 Declarar variables globales está prohibido.
 Si necesitas separar una función compleja en varias, utiliza la palabra static.
 Todos los archivos deben estar en la raíz de tu repositorio.
@@ -103,7 +105,7 @@ Todos los archivos .c deben compilarse con las flags -Wall -Werror -Wextra.
 Usa ar para generar la librería. El uso de libtool está prohibido.
 libft.a debe ser creado en la raíz del repositorio.
 
-### Uso
+# Uso
 Para compilar la librería, ejecuta:
 
 bash
