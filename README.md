@@ -86,7 +86,8 @@ ft_lstclear
 ft_lstiter
 ft_lstmap
 
-### Reglas de Compilación
+### Parte 2 - Funciones adicionales
+
 En tu Makefile, debes incluir las siguientes reglas:
 
 NAME para generar el archivo libft.a.
