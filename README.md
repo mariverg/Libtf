@@ -97,23 +97,27 @@ Si completas la parte obligatoria, puedes implementar funciones adicionales para
 - libft.a debe ser creado en la raíz del repositorio.
 
 ### Usos:
+
 Para compilar la librería, ejecuta:
 
-bash
+```bash
 Copy code
-make
+make```
+
 Para limpiar los archivos objeto, ejecuta:
 
-bash
+```bash
 Copy code
-make clean
+make clean```
+
 Para limpiar los archivos objeto y la librería, ejecuta:
 
-bash
+```bash
 Copy code
-make fclean
+make fclean```
+
 Para recompilar todo, ejecuta:
 
-bash
+```bash
 Copy code
-make re
+make re``
