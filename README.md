@@ -81,8 +81,8 @@ Si completas la parte obligatoria, puedes implementar funciones adicionales para
 
   ### En tu Makefile, debes incluir las siguientes reglas:
 
-NAME para generar el archivo libft.a.
-all para compilar todos los archivos.
-clean para eliminar archivos objeto.
-fclean para eliminar archivos objeto y la librería.
-re para recompilar todo.
+-NAME para generar el archivo libft.a.
+-all para compilar todos los archivos.
+-clean para eliminar archivos objeto.
+-fclean para eliminar archivos objeto y la librería.
+-re para recompilar todo.
